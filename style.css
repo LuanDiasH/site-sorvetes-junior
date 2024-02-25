@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Estilo da navegação */
+nav {
+    width: 100%;
+    background-color: rgb(56, 182, 255);
+}
+
+.redes-link{
+    margin-right: 2%;
+    margin-top: -20px;
+    width: 30px;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: center; /* Centralizar os itens da lista */
+}
+
+li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(56, 182, 255);
+}
+
+/* Estilo do conteúdo */
+#container {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+}
+
+
+h5{
+    color: rgb(56, 182, 255);
+    font-weight: bold;
+}
+
+#mulher,
+#distribuicao {
+    margin-bottom: 18px;
+    border-bottom: 2px solid rgb(56, 182, 255);
+    height: auto;
+}
+
+.foto,
+.foto2,
+.foto3 {
+    margin-top: 15px;
+    max-width: 80%;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgb(56, 182, 255);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.copy {
+    
+    color: rgb(255, 255, 255);
+}
+
+#redes {
+    width: 200px;
+    height: 30px;
+    margin-left: 80%;
+    margin-top: -40px;
+}
+
+p {
+    max-width: 100%;
+    font-size: large;
+    text-align: justify;
+    padding-top: 20px;
+    color: rgb(56, 182, 255);
+}
+
+.p-direito,
+.p-esquerdo1,
+.p-esquerdo {
+    float: left;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 1%;
+    display: block;
+}
+
+i{
+    margin-left: 2%;
+    margin-bottom: -30px;
+    width: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
